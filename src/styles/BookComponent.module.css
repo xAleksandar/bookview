@@ -1,0 +1,84 @@
+.Book {
+    background-color: rgb(255, 255, 123);
+    max-width: 30%;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    min-width: 20vh;
+    height: 12vh;
+    display: flex;
+    padding: 7px;
+}
+
+@media (max-width: 767px) {
+    .Book {
+        max-width: 90%;
+        font-size: 15px;
+    }
+  }
+
+.Info {
+    border-right: 2px solid gray;
+    min-width: 80%;
+}
+
+@media (max-width: 767px) {
+    .Info {
+        min-width: 75%;
+        font-size: 10px;
+    }
+}
+
+.Header {
+    display: flex;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+    max-height: 40%;
+}
+
+.BookName {
+    min-width: 60%;
+    max-width: 60%;
+}
+
+@media (max-width: 767px) {
+    .BookName {
+        overflow: hidden;
+    }
+}
+
+
+.BookAuthor {
+    border-left: 2px solid gray;
+    text-align: center;
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.BookBody {
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .BookBody {
+        font-size: 8px;
+    }
+}
+
+.Image {
+    max-width: 15%;
+    max-height: 15%;
+    margin: 5px auto;
+    border-radius: 25px;
+}
+
+@media (max-width: 767px) {
+    .Image {
+        margin: 7px auto;
+        max-width: 20%;
+        max-height: 20%;
+    }
+}

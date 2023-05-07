@@ -1,0 +1,14 @@
+.List {
+    text-align: center;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .List {
+        max-width: 100%;
+    }
+  }
+  
